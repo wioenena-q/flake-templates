@@ -1,6 +1,10 @@
 {
   description = "wioenena flake templates";
 
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+
   outputs =
     { self, nixpkgs }:
     let
@@ -18,7 +22,10 @@
           path = ./c-hello;
           description = "c-hello template";
         };
+	flake-utils = {
+	  path = ./flake-utils;
+	  description = "Simple flake with flake-utils";
+	};
       };
-
     };
 }
