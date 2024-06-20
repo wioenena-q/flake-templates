@@ -26,8 +26,8 @@
         '';
 
         installPhase = ''
-                  mkdir -p "$out/bin"
-          	mv ./c-hello "$out/bin"
+          mkdir -p "$out/bin"
+          mv ./c-hello "$out/bin"
         '';
       };
 
