@@ -26,6 +26,10 @@
           path = ./flake-utils;
           description = "Simple flake with flake-utils";
         };
+	rust-project = {
+	  path = ./rust-project;
+	  description = "Simple project for rust lang";
+	};
       };
     };
 }
