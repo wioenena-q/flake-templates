@@ -22,10 +22,10 @@
           path = ./c-hello;
           description = "c-hello template";
         };
-	flake-utils = {
-	  path = ./flake-utils;
-	  description = "Simple flake with flake-utils";
-	};
+        flake-utils = {
+          path = ./flake-utils;
+          description = "Simple flake with flake-utils";
+        };
       };
     };
 }
